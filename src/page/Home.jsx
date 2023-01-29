@@ -46,7 +46,7 @@ const Home = () => {
       <Line size="2px">
         <Me>
           <img
-            src="/images/me.webp"
+            src="/yu-portfolio/images/me.webp"
             width="100"
             height="100"
           ></img>

@@ -7,7 +7,7 @@ let projectData = [
     web: "https://www.gofreight.com/",
     year: "2022.02~ Now",
     des: `使用 Wordpress 開發，以 HTML 、 CSS 、 JavaScript 純手刻所有網站，依照設計師設計稿需求製作精確的響應式頁面，並且運用套件表單串接至客戶關係管理系統，快速整合相關資料。同時負責助於增進 SEO 的網頁效能優化，根據優化建議進行修改，使用延遲載入、緩存、圖片優化、壓縮檔案等方式，使官網效能分數從原來的 30分，進步至 70分，並且 2022 年網站整體流量提升 20% 。除此之外，也參與行銷工具的串接，像是 Google Tag Manager 、 Google Analytics 的設定，以及利用 Looker Studio 製作圖表，觀察使用者行為並加以改善網站使用體驗，有助於提升使用者填表率。 `,
-    img: "/images/pj-gofreight-website.jpeg",
+    img: "/yu-portfolio/images/pj-gofreight-website.jpeg",
     tag: ["Wordpress", "HTML/CSS", "JavaScript", "GTM", "GA", "Looker Studio"],
   },
   {
@@ -19,7 +19,7 @@ let projectData = [
     web: "https://xinyu714.github.io/CASHKACHIN_WEEK3/",
     year: "2022.11",
     des: "該作品是以實際的工作場景介紹 Scrum team 的運作團體協作開發，在部分關卡設計互動問題的形式，以 JavaScript Drag and Drop API 功能實現，並且在關卡提交加入驗證，正確即可進入下一關卡，藉此讓使用者認識 Scrum 流程，最終入選佳作。該作品屬於團體協作開發，主要負責拖曳功能與驗證及切版。",
-    img: "/images/pj-scrum.webp",
+    img: "/yu-portfolio/images/pj-scrum.webp",
     tag: ["HTML/CSS", "JavaScript", "Drag and Drop", "Side Project"],
   },
   {
@@ -31,7 +31,7 @@ let projectData = [
     web: "https://xinyu714.github.io/react-photo-fetch/",
     year: "2022.11",
     des: "使用 Pexels API 串接，輸入關鍵字即可搜尋相關圖庫，作為 API 串接練習",
-    img: "/images/pj-react-photo-fetch.webp",
+    img: "/yu-portfolio/images/pj-react-photo-fetch.webp",
     tag: ["React", "Fetch API", "Router", "Side Project"],
   },
   {
@@ -43,7 +43,7 @@ let projectData = [
     web: "https://xinyu714.github.io/Aspenne/",
     year: "2021.11",
     des: "該作品是一個介紹畢業專題遊戲的網站，運用 HTML 、 CSS 、 JavaScript，並且搭配 GSAP 套件製作動態效果，給予使用者較互動的形式來了解中世紀獵巫時期。負責部分畫面構想以及全部頁面獨立切版。",
-    img: "/images/pj-aspenne.webp",
+    img: "/yu-portfolio/images/pj-aspenne.webp",
     tag: ["HTML/CSS", "JavaScript", "GSAP"],
   },
   {
@@ -55,7 +55,7 @@ let projectData = [
     web: "https://xinyu714.github.io/react-vite-switch_theme/",
     year: "2023.01",
     des: "運用 React Hook 中的 useState 概念利用按鈕切換主題顏色，並結合 Vite 建立專案",
-    img: "/images/pj-react-vite-switch_theme_.webp",
+    img: "/yu-portfolio/images/pj-react-vite-switch_theme_.webp",
     tag: ["React", "Hook", "Vite"],
   },
   {
@@ -66,7 +66,7 @@ let projectData = [
     isWeb: false,
     year: "2023.01",
     des: "個人網站是運用 React + Vite 開發，使用 React Hook (useState, useEffect) 、 Router等概念，並使用styled-components切版，期望透過這個網站能更加認識我！",
-    img: "/images/pj-mysite.webp",
+    img: "/yu-portfolio/images/pj-mysite.webp",
     tag: ["React", "Hook", "Vite", "Router", "styled-components"],
   },
 ];
