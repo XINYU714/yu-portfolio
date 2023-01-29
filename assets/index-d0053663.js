@@ -89,7 +89,7 @@ Error generating stack: `+i.message+`
     padding: 0;
  }
   body {
-    font-family: 'Inter', Sans-Serif;
+    font-family: 'Inter', 'Noto Sans TC', Sans-Serif;
     box-sizing: border-box;
     overflow-x: hidden;
     background: #323232;
