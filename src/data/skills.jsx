@@ -11,7 +11,7 @@ export default [
     id: "JavaScript / React",
     title: "JavaScript / React",
     des: [
-      "熟悉 JavaScript 製作事件效果並列了解 ES6 標準",
+      "熟悉 JavaScript 製作事件效果並瞭解 ES6 標準",
       "使用 React 製作 SPA 網站",
       "熟悉運用 React Hook 概念 (useState、useEffect)",
       "瞭解 API 串接",

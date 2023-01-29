@@ -51,7 +51,7 @@ const Home = () => {
             height="100"
           ></img>
           <div className="name">
-            <h1>Stacy CHENG</h1>
+            <h1>STACY CHENG</h1>
             <Pos>Front end developer</Pos>
           </div>
         </Me>

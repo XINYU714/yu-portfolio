@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { PC_width } from "./Media.styled";
+import { PC_width, white, lightgray } from "./Media.styled";
 export const AboutWrap = styled.div`
   max-width: 380px;
   padding: 0 120px;
@@ -13,7 +13,7 @@ export const SmText = styled.p`
   line-height: 1.3;
   letter-spacing: 0.1em;
   margin: 10px 0;
-  color: #fff;
+  color: ${white};
   &.back a {
     display: flex;
     align-items: center;
@@ -47,6 +47,6 @@ export const SmText = styled.p`
   }
 `;
 export const SmTitle = styled(SmText)`
-  color: #7f7f7f;
+  color: ${lightgray};
   margin-bottom: 20px;
 `;

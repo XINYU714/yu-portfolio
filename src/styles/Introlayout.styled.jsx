@@ -1,8 +1,6 @@
 import styled from "styled-components";
-import { PC_width, TAB_width } from "./Media.styled";
+import { PC_width, TAB_width, white, lightgray } from "./Media.styled";
 
-const white = "#fff";
-const lightgray = "#7f7f7f";
 const textStyle = (textMargin) => {
   return `
     font-weight: 400;

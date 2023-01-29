@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 import { normalize } from "styled-normalize";
-import { TAB_width, Mob_width } from "./Media.styled";
+import { TAB_width, Mob_width, white, lightgray } from "./Media.styled";
 const GlobalStyle = createGlobalStyle`
  ${normalize};
  *{
@@ -19,12 +19,12 @@ const GlobalStyle = createGlobalStyle`
     white-space: normal;
   }
   .menu{
-    color: #fff;
+    color: ${white};
     position: fixed;
     top: 20px;
     right: 20px;
     padding:6px;
-    background-color:#7f7f7f;
+    background-color:${lightgray};
     border-radius:100%;
     display: none;
     z-index:999;
@@ -43,7 +43,6 @@ export const Section = styled.div`
 `;
 export const SectionLeft = styled.div`
   background: #323232;
-  /* background: #e9e9e9; */
 `;
 export const SectionRight = styled.div`
   background: #222;
@@ -55,8 +54,6 @@ export const SectionRight = styled.div`
   flex-direction: column;
   gap: 80px;
   ${TAB_width} {
-    /* display: ; */
-    /* display: none; */
     position: fixed;
     overflow-y: scroll;
     padding: 80px 0 0;

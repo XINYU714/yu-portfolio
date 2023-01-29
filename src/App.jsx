@@ -1,9 +1,5 @@
 import { useState, useEffect } from "react";
-import GlobalStyle, {
-  Section,
-  SectionLeft,
-  SectionRight,
-} from "./styles/GlobalStyle.styled";
+import GlobalStyle, { Section, SectionLeft } from "./styles/GlobalStyle.styled";
 import Home from "./page/Home";
 import Nav from "./components/Nav";
 import Project from "./page/Project";
@@ -52,7 +48,6 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
-      {/* //wrap  */}
       <Section>
         <Menu click={toggleHandler} />
         <SectionLeft>

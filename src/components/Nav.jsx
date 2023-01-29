@@ -53,7 +53,7 @@ const Nav = (props) => {
       <AboutWrap>
         <SmTitle>Contact</SmTitle>
         <SmText>
-          TEL:&ensp;<a href="tel:+886018232821">+886 9182323821</a>
+          TEL:&ensp;<a href="tel:+886918232821">+886 9182323821</a>
         </SmText>
         <SmText>
           Email:&ensp;
