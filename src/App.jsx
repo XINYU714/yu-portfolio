@@ -18,7 +18,10 @@ function App() {
   const urlLocation = useLocation();
   useEffect(() => {
     setIsHome((pre) => {
-      if (urlLocation.pathname === "/yu-portfolio") {
+      if (
+        urlLocation.pathname === "/yu-portfolio" ||
+        urlLocation.pathname === "/yu-portfolio/"
+      ) {
         return (pre = true);
       } else {
         return (pre = false);
