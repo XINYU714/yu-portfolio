@@ -5,7 +5,7 @@ const textStyle = (textMargin) => {
   return `
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.3;
+    line-height: 1.5;
     letter-spacing: 0.1em;
     color: ${white};
     margin:${textMargin} 0;

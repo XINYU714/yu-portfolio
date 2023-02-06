@@ -12,6 +12,17 @@ let projectData = [
   },
   {
     id: 2,
+    projectName: "UI/UX 設計師作品集網站",
+    isGithub: false,
+    isWeb: true,
+    web: "https://ffffffang.github.io/portfolio/",
+    year: "2023.01",
+    des: "根據需求製作具有「標籤篩選」功能的作品呈現，在開發的同時，考量到該網站圖檔與文檔眾多，因此設定 LazyLoad Image，並導入 React Lazy ，將程式碼分割，優化網頁加載速度。",
+    img: "/yu-portfolio/images/pj-ffffffang_portfolio.webp",
+    tag: ["React/Hook", "Router", "Lazy", "SCSS", "Side Project"],
+  },
+  {
+    id: 3,
     projectName: "2022 THE F2E - Scrum 新手村",
     isGithub: true,
     link: "https://github.com/XINYU714/CASHKACHIN_WEEK3",
@@ -23,7 +34,7 @@ let projectData = [
     tag: ["HTML/CSS", "JavaScript", "Drag and Drop", "Side Project"],
   },
   {
-    id: 3,
+    id: 4,
     projectName: "圖片搜索庫",
     isGithub: true,
     link: "https://github.com/XINYU714/react-photo-fetch",
@@ -35,7 +46,7 @@ let projectData = [
     tag: ["React", "Fetch API", "Router", "Side Project"],
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Aspenne 畢業專題",
     isGithub: true,
     link: "https://github.com/XINYU714/Aspenne",
@@ -47,7 +58,7 @@ let projectData = [
     tag: ["HTML/CSS", "JavaScript", "GSAP"],
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Switch Theme / Practice",
     isGithub: true,
     link: "https://github.com/XINYU714/react-vite-switch_theme",
@@ -56,10 +67,10 @@ let projectData = [
     year: "2023.01",
     des: "運用 React Hook 中的 useState 概念利用按鈕切換主題顏色，並結合 Vite 建立專案。",
     img: "/yu-portfolio/images/pj-react-vite-switch_theme_.webp",
-    tag: ["React", "Hook", "Vite"],
+    tag: ["React/Hook", "Vite"],
   },
   {
-    id: 6,
+    id: 7,
     projectName: "-About Portfolio Website-",
     isGithub: true,
     link: "https://github.com/XINYU714/yu-portfolio",
@@ -67,7 +78,7 @@ let projectData = [
     year: "2023.01",
     des: "個人網站是運用 React + Vite 開發，使用 React Hook (useState, useEffect) 、 Router 等概念，並使用 styled-components 切版，期望透過這個網站能更加認識我！",
     img: "/yu-portfolio/images/pj-mysite.webp",
-    tag: ["React", "Hook", "Vite", "Router", "styled-components"],
+    tag: ["React/Hook", "Vite", "Router", "styled-components"],
   },
 ];
 function getId(id) {
